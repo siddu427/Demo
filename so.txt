@@ -1,0 +1,8 @@
+I can issue the clear command or press Ctrl + L 
+to clear the current Ubuntu terminal, but this just
+ shifts previous output upwards and if you use mouse
+ scroll or PgUP and PgDown keys it's hard to distinguish
+ where the output of previous command ends and output of current 
+command begins.
+
+Is there a way to really clear the terminal so I won't see previous command results?

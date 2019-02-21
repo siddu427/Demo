@@ -1,0 +1,10 @@
+7
+
+My favorite is printf "\ec". This can also be printf "\033c" or printf "\x1bc". That is an ansi escape sequence that miraculously clears the screen and buffer for the terminal output (for most standard terminals I have worked in it seems - I know it works in such as gnome-terminal, terminator, xterm, etc. on Ubuntu-like Linuxes)
+
+I know this works in Linux Mint and Ubuntu 14.04, so I don't know why people are appending and prepedning things like clear && echo -ne "\033c. printf "\ec" has always worked for me.
+
+Additionally, in my .bashrc I have a binding like this:
+
+bind -x '"\C-t": printf "\ec"';
+Now I press ctrlt all the time.
